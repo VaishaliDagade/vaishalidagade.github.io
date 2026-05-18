@@ -19,6 +19,11 @@ Use:
 
 - `assets/images/projects/01-fea-plate-render.jpg`
 - `assets/images/projects/02-formwork-site.jpg`
+- `assets/images/projects/03-formwork-3d-model.jpg`
+- `assets/images/projects/04-construction-site.jpg`
+- `assets/images/projects/05-structural-member-model.jpg`
+- `assets/images/projects/06-formwork-installation.jpg`
+- `assets/images/projects/07-residential-render.jpg`
 - `assets/images/projects/08-villa-render.jpg`
 - `assets/images/projects/09-i-beam-model.jpg`
 - `assets/images/projects/10-residence-plan-render.jpg`
@@ -29,7 +34,6 @@ Use:
 
 Do not use:
 
-- Project photo source files `14.jpg` through `18.jpg`.
 - Project contact-sheet items 14 through 18.
 - Research visual contact-sheet items 2 through 9 unless Vaishali later approves them.
 - Raw contact sheets as public website assets.
