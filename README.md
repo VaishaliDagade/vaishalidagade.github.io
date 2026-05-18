@@ -9,9 +9,8 @@ This project is the working home for VaishaliDagade.com: a structural engineerin
 ## Public Contact
 
 - Email: me@vaishalidagade.com
-- Phone: (952) 529-8034
-- Location: Eden Prairie / Greater Minneapolis-St. Paul Area
 - LinkedIn: https://www.linkedin.com/in/vaishalidagade/
+- Website: https://vaishalidagade.com/
 
 ## Current Asset Decisions
 
@@ -46,9 +45,10 @@ The `source/` folder contains local reference material copied from the laptop. I
 
 ## Build Notes
 
-Recommended first build:
+Current build:
 
 - Static portfolio website.
-- Sections: Home, Projects, Research, Experience, Resume, Contact.
-- Public resume should be rebuilt/sanitized before publishing.
-- Squarespace can either host the finished pages directly or point the domain to a separate static host later.
+- Sections: hero, selected work, experience, research, technical range, resume, contact.
+- Five static case-study pages under `work/`.
+- Sanitized professional and research/FEA resume PDFs under `public/resume/`.
+- GitHub Pages target domain: `vaishalidagade.com`.

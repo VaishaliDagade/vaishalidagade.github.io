@@ -9,9 +9,8 @@ Structural Engineer specializing in structural design, formwork systems, finite 
 ## Contact
 
 - Email: me@vaishalidagade.com
-- Phone: (952) 529-8034
-- Location: Eden Prairie, Minnesota
 - LinkedIn: https://www.linkedin.com/in/vaishalidagade/
+- Website: https://vaishalidagade.com/
 
 ## Credibility Highlights
 
