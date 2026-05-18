@@ -138,7 +138,8 @@ a {
 .header-contact svg,
 .button svg,
 .expertise-card svg,
-.contact-item svg {
+.contact-item svg,
+.contact-logo {
   width: 18px;
   height: 18px;
   stroke-width: 1.8;
@@ -564,6 +565,12 @@ h3 {
   width: 26px;
   height: 26px;
   color: var(--steel);
+}
+
+.contact-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
 }
 
 .contact-item span {

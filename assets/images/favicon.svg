@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VD finite element favicon">
+  <rect width="64" height="64" rx="10" fill="#111111"/>
+  <path d="M8 47 C18 40 29 42 38 35 C47 28 52 18 58 11" fill="none" stroke="#315f72" stroke-width="2.4" opacity="0.9"/>
+  <path d="M7 18 C19 22 26 18 36 23 C45 28 50 38 58 43" fill="none" stroke="#a65f3d" stroke-width="2" opacity="0.9"/>
+  <g stroke="#f6f2e9" stroke-width="0.9" opacity="0.36">
+    <path d="M10 12 L54 50"/>
+    <path d="M4 25 L48 63"/>
+    <path d="M16 1 L62 39"/>
+    <path d="M8 53 L56 11"/>
+    <path d="M-1 38 L41 -4"/>
+    <path d="M24 65 L65 24"/>
+  </g>
+  <circle cx="15" cy="20" r="2.2" fill="#315f72"/>
+  <circle cx="44" cy="24" r="2.2" fill="#a65f3d"/>
+  <circle cx="50" cy="43" r="2.2" fill="#315f72"/>
+  <text x="32" y="42" text-anchor="middle" fill="#fffdf8" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700">VD</text>
+</svg>
