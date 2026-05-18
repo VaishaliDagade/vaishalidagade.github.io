@@ -1,0 +1,21 @@
+# Local source/reference files. Do not publish without review.
+source/
+
+# Raw or private review materials.
+private-review/
+
+# OS/editor noise.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies and generated build output.
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+
+# Environment files.
+.env
+.env.*
