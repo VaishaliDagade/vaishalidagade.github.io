@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Bolted steel connection detail</title>
+  <desc id="desc">Technical drawing of a bolted beam-to-column steel connection with end plate, bolt group, weld line, and load transfer notes.</desc>
+  <defs>
+    <linearGradient id="steelFace" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef4f6"/>
+      <stop offset="0.52" stop-color="#b8c7cf"/>
+      <stop offset="1" stop-color="#6f818d"/>
+    </linearGradient>
+    <linearGradient id="beamWeb" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#dce6ea"/>
+      <stop offset="0.58" stop-color="#f8fbfa"/>
+      <stop offset="1" stop-color="#9aabb5"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#dce5e8" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#0f5b73"/>
+    </marker>
+  </defs>
+  <rect width="900" height="560" fill="#f8fbfa"/>
+  <rect x="22" y="22" width="856" height="516" rx="8" fill="url(#grid)" opacity="0.6"/>
+
+  <g transform="translate(80 72)" stroke="#111820" stroke-linejoin="round" stroke-linecap="round">
+    <g>
+      <path d="M98 18h118v430H98z" fill="url(#steelFace)" stroke-width="4"/>
+      <path d="M118 18v430M196 18v430" fill="none" stroke="#6b7880" stroke-width="2" opacity="0.55"/>
+      <path d="M82 48h150M82 418h150" stroke-width="12"/>
+    </g>
+
+    <g>
+      <path d="M216 191h336v116H216z" fill="url(#beamWeb)" stroke-width="4"/>
+      <path d="M216 164h352v34H216z" fill="#c9d5db" stroke-width="4"/>
+      <path d="M216 300h352v34H216z" fill="#a9bac3" stroke-width="4"/>
+      <path d="M247 198v102M286 198v102M325 198v102M364 198v102M403 198v102M442 198v102M481 198v102M520 198v102" stroke="#7d8b94" stroke-width="1.5" opacity="0.5"/>
+    </g>
+
+    <g>
+      <rect x="232" y="134" width="34" height="230" rx="4" fill="#dce5e8" stroke-width="4"/>
+      <path d="M229 143h40M229 355h40" stroke="#60717c" stroke-width="2"/>
+      <path d="M269 152l24 24M269 346l24-24" stroke="#b65f30" stroke-width="4"/>
+    </g>
+
+    <g fill="#0f5b73" stroke="#fff" stroke-width="4">
+      <circle cx="249" cy="170" r="12"/>
+      <circle cx="249" cy="214" r="12"/>
+      <circle cx="249" cy="258" r="12"/>
+      <circle cx="249" cy="302" r="12"/>
+      <circle cx="249" cy="346" r="12"/>
+    </g>
+
+    <g stroke="#b65f30" stroke-width="3">
+      <path d="M292 176h226"/>
+      <path d="M292 322h226"/>
+      <path d="M332 198v102"/>
+      <path d="M472 198v102"/>
+    </g>
+
+    <path d="M590 248h88" fill="none" stroke="#0f5b73" stroke-width="5" marker-end="url(#arrow)"/>
+    <path d="M622 209v78" fill="none" stroke="#b65f30" stroke-width="4" marker-end="url(#arrow)"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="610" y="78" width="226" height="126" rx="8" fill="#ffffff" stroke="#d9e1e5"/>
+    <text x="632" y="112" fill="#111827" font-size="21" font-weight="800">Beam-to-column</text>
+    <text x="632" y="140" fill="#111827" font-size="21" font-weight="800">connection detail</text>
+    <text x="632" y="178" fill="#5f6974" font-size="16">Bolt, plate, weld, and</text>
+    <text x="632" y="199" fill="#5f6974" font-size="16">load-transfer checks</text>
+
+    <path d="M596 235L272 176" fill="none" stroke="#0f5b73" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="604" y="241" fill="#0f5b73" font-size="16" font-weight="800">Bolt group</text>
+
+    <path d="M596 306L286 333" fill="none" stroke="#b65f30" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="604" y="313" fill="#b65f30" font-size="16" font-weight="800">Weld line and end plate</text>
+
+    <rect x="610" y="366" width="226" height="86" rx="8" fill="#ffffff" stroke="#d9e1e5"/>
+    <text x="632" y="399" fill="#111827" font-size="18" font-weight="800">Descon Win workflow</text>
+    <text x="632" y="429" fill="#5f6974" font-size="15">Design checks tied to</text>
+    <text x="632" y="449" fill="#5f6974" font-size="15">fabrication documentation</text>
+  </g>
+</svg>

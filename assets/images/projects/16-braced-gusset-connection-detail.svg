@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Braced gusset steel connection detail</title>
+  <desc id="desc">Technical drawing of a braced steel frame connection with gusset plate, bolted brace, column, beam, and force-transfer notes.</desc>
+  <defs>
+    <linearGradient id="member" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef4f6"/>
+      <stop offset="0.5" stop-color="#c3d0d7"/>
+      <stop offset="1" stop-color="#788993"/>
+    </linearGradient>
+    <pattern id="draftGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#dce5e8" stroke-width="1"/>
+    </pattern>
+    <marker id="arrowBrace" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#b65f30"/>
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#0f5b73"/>
+    </marker>
+  </defs>
+  <rect width="900" height="560" fill="#f8fbfa"/>
+  <rect x="22" y="22" width="856" height="516" rx="8" fill="url(#draftGrid)" opacity="0.62"/>
+
+  <g transform="translate(92 64)" stroke="#111820" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 20h86v438H84z" fill="url(#member)" stroke-width="4"/>
+    <path d="M61 62h530v66H61z" fill="url(#member)" stroke-width="4"/>
+    <path d="M102 20v438M152 20v438" stroke="#6c7a83" stroke-width="2" opacity="0.55"/>
+    <path d="M61 82h530M61 108h530" stroke="#6c7a83" stroke-width="2" opacity="0.55"/>
+
+    <path d="M420 430L148 114" stroke="#111820" stroke-width="44"/>
+    <path d="M420 430L148 114" stroke="#dce6ea" stroke-width="28"/>
+    <path d="M420 430L148 114" stroke="#6f818d" stroke-width="5" opacity="0.65"/>
+
+    <path d="M160 128L330 128L160 334Z" fill="#dce5e8" stroke="#111820" stroke-width="4"/>
+    <path d="M180 152L291 152L180 287Z" fill="#edf4f6" stroke="#778992" stroke-width="2"/>
+    <path d="M168 128l-54 64M188 128l-74 88M210 128l-96 112" stroke="#b65f30" stroke-width="3"/>
+
+    <g fill="#0f5b73" stroke="#fff" stroke-width="4">
+      <circle cx="184" cy="170" r="11"/>
+      <circle cx="215" cy="170" r="11"/>
+      <circle cx="246" cy="170" r="11"/>
+      <circle cx="180" cy="217" r="11"/>
+      <circle cx="211" cy="217" r="11"/>
+      <circle cx="174" cy="265" r="11"/>
+    </g>
+
+    <g fill="#b65f30" stroke="#fff" stroke-width="4">
+      <circle cx="304" cy="128" r="10"/>
+      <circle cx="254" cy="128" r="10"/>
+      <circle cx="126" cy="206" r="10"/>
+      <circle cx="126" cy="256" r="10"/>
+      <circle cx="426" cy="430" r="12"/>
+    </g>
+
+    <path d="M462 380L260 145" fill="none" stroke="#b65f30" stroke-width="5" marker-end="url(#arrowBrace)"/>
+    <path d="M350 104H220" fill="none" stroke="#0f5b73" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="604" y="88" width="232" height="130" rx="8" fill="#ffffff" stroke="#d9e1e5"/>
+    <text x="626" y="122" fill="#111827" font-size="21" font-weight="800">Braced-frame</text>
+    <text x="626" y="150" fill="#111827" font-size="21" font-weight="800">gusset connection</text>
+    <text x="626" y="188" fill="#5f6974" font-size="16">Brace force, bolt group,</text>
+    <text x="626" y="209" fill="#5f6974" font-size="16">plate, and weld checks</text>
+
+    <path d="M596 258L274 185" fill="none" stroke="#0f5b73" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <text x="604" y="265" fill="#0f5b73" font-size="16" font-weight="800">Bolt pattern</text>
+
+    <path d="M596 318L254 216" fill="none" stroke="#b65f30" stroke-width="3" marker-end="url(#arrowBrace)"/>
+    <text x="604" y="325" fill="#b65f30" font-size="16" font-weight="800">Gusset plate load path</text>
+
+    <rect x="604" y="378" width="232" height="86" rx="8" fill="#ffffff" stroke="#d9e1e5"/>
+    <text x="626" y="411" fill="#111827" font-size="18" font-weight="800">Descon Brace workflow</text>
+    <text x="626" y="441" fill="#5f6974" font-size="15">Brace connection checks</text>
+    <text x="626" y="461" fill="#5f6974" font-size="15">for fabrication-ready detail</text>
+  </g>
+</svg>

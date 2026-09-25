@@ -3,6 +3,7 @@ source/
 
 # Raw or private review materials.
 private-review/
+tmp/
 
 # OS/editor noise.
 .DS_Store

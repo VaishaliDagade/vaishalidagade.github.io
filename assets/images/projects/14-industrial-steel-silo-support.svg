@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Industrial steel silo support frame</title>
+  <desc id="desc">Technical drawing of plate-blending silos supported by a braced structural steel frame.</desc>
+  <defs>
+    <linearGradient id="silo" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7ad7dc"/>
+      <stop offset="0.5" stop-color="#d9fbfb"/>
+      <stop offset="1" stop-color="#33a7b6"/>
+    </linearGradient>
+    <pattern id="paper-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d9e1e5" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#b65f30"/>
+    </marker>
+  </defs>
+  <rect width="900" height="560" fill="#f8fbfa"/>
+  <rect x="24" y="24" width="852" height="512" rx="18" fill="url(#paper-grid)" opacity="0.55"/>
+
+  <g transform="translate(95 52)">
+    <g fill="url(#silo)" stroke="#0f5b73" stroke-width="3">
+      <g>
+        <ellipse cx="110" cy="36" rx="72" ry="21"/>
+        <path d="M38 36h144v252H38z"/>
+        <ellipse cx="110" cy="288" rx="72" ry="21"/>
+        <path d="M74 48v228M110 48v236M146 48v228" opacity="0.45"/>
+      </g>
+      <g transform="translate(158 0)">
+        <ellipse cx="110" cy="36" rx="72" ry="21"/>
+        <path d="M38 36h144v252H38z"/>
+        <ellipse cx="110" cy="288" rx="72" ry="21"/>
+        <path d="M74 48v228M110 48v236M146 48v228" opacity="0.45"/>
+      </g>
+      <g transform="translate(316 0)">
+        <ellipse cx="110" cy="36" rx="72" ry="21"/>
+        <path d="M38 36h144v252H38z"/>
+        <ellipse cx="110" cy="288" rx="72" ry="21"/>
+        <path d="M74 48v228M110 48v236M146 48v228" opacity="0.45"/>
+      </g>
+    </g>
+
+    <g stroke="#111820" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 305h570" stroke-width="16"/>
+      <path d="M50 322h514" stroke-width="10"/>
+      <path d="M66 322v130M190 322v130M314 322v130M438 322v130M546 322v130" stroke-width="14"/>
+      <path d="M66 322l124 130M190 322L66 452M190 322l124 130M314 322L190 452M314 322l124 130M438 322L314 452M438 322l108 130M546 322L438 452" stroke-width="8"/>
+      <path d="M42 452h534" stroke-width="16"/>
+    </g>
+
+    <g fill="#b65f30" stroke="#fff" stroke-width="3">
+      <circle cx="66" cy="322" r="8"/>
+      <circle cx="190" cy="322" r="8"/>
+      <circle cx="314" cy="322" r="8"/>
+      <circle cx="438" cy="322" r="8"/>
+      <circle cx="546" cy="322" r="8"/>
+      <circle cx="66" cy="452" r="8"/>
+      <circle cx="190" cy="452" r="8"/>
+      <circle cx="314" cy="452" r="8"/>
+      <circle cx="438" cy="452" r="8"/>
+      <circle cx="546" cy="452" r="8"/>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="610" y="92" width="214" height="142" rx="10" fill="#ffffff" stroke="#d9e1e5"/>
+    <text x="632" y="128" fill="#111827" font-size="22" font-weight="800">Plate-blending</text>
+    <text x="632" y="157" fill="#111827" font-size="22" font-weight="800">silo support</text>
+    <text x="632" y="196" fill="#5f6974" font-size="17">Braced steel framing</text>
+    <text x="632" y="219" fill="#5f6974" font-size="17">and load-path checks</text>
+
+    <path d="M613 277H482" fill="none" stroke="#b65f30" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="602" y="284" fill="#b65f30" font-size="16" font-weight="800">640 tons per silo</text>
+
+    <path d="M594 362H528" fill="none" stroke="#0f5b73" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="602" y="367" fill="#0f5b73" font-size="16" font-weight="800">Bracing + anchorage</text>
+  </g>
+</svg>
