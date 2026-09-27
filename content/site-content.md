@@ -17,7 +17,7 @@ Structural Engineer specializing in structural design, formwork systems, finite 
 - 10+ years of structural design experience.
 - Ph.D. in Structural Engineering.
 - FE Civil certified in the United States.
-- PE Civil Structural candidate.
+- PE Civil: Structural exam passed (confirmed in the September 2026 LinkedIn headline).
 - Founder/proprietor experience through Vardhaman Engineers and Consultants.
 - Experience with RCC, steel, aluminum and wood formwork, PT slabs, foundation systems, shell structures, facade and railing systems, structural audits, and industrial steel structures.
 
