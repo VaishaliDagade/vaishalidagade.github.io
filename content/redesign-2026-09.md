@@ -2,10 +2,17 @@
 
 ## Structure
 
-The homepage has six progressively enhanced, keyboard-accessible tabs: Aluminum,
-Structural Steel, Concrete, Research, Teaching, and Software Skills. Without
-JavaScript, all six sections remain readable. Each discipline has a shareable
-fragment URL. Existing case-study URLs are preserved.
+Vaishali granted creative freedom and removed the requirement for six discipline
+tabs. The homepage now follows a project-led editorial layout: an architectural
+steel opening, a featured Tech Mahindra project, formwork and industrial work,
+doctoral research, professional background, teaching, technical practice, and
+contact. The palette combines teal, coral, cobalt, and muted violet on light
+backgrounds. Original photographs remain the evidence for the work.
+
+Core content is readable without JavaScript. Photo enlargement and mobile
+navigation are enhanced with JavaScript; publication and software disclosures
+use native details elements. Previous discipline fragments and all case-study
+URLs are preserved.
 
 ## Content sources
 
@@ -27,7 +34,7 @@ specific responsibilities or attributing unrelated building photos to a project.
 
 Tech Mahindra Hinjewadi: Vaishali confirmed in this conversation that she designed
 four approximately 40-foot exterior structural steel columns supporting the slab
-above, with base support and no intermediate bracing. The steel tab includes the
+above, with base support and no intermediate bracing. The featured story includes the
 photo and this specific role; no additional design calculations are claimed.
 
 Held for clarification: library.jpg. Confirm whether the library is project work

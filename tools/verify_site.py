@@ -47,11 +47,11 @@ for path, page in pages.items():
             errors.append(f"{path.name}: missing fragment {ref}")
 
 home = pages[(ROOT / "index.html").resolve()]
-for discipline in ("aluminum", "steel", "concrete", "research", "teaching", "software"):
-    for identifier in (discipline, f"tab-{discipline}", f"heading-{discipline}"):
-        if identifier not in home.ids:
-            errors.append(f"Missing portfolio identifier: {identifier}")
+for identifier in ("projects", "aluminum", "steel", "concrete", "research", "about",
+                   "experience", "teaching", "expertise", "software", "resume", "contact", "top"):
+    if identifier not in home.ids:
+        errors.append(f"Missing portfolio anchor: {identifier}")
 
 if errors:
     raise SystemExit("\n".join(errors))
-print(f"PASS: {len(pages)} HTML pages, {references} local references, and all six disciplines.")
+print(f"PASS: {len(pages)} HTML pages, {references} local references, and all portfolio anchors.")

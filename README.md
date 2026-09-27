@@ -48,9 +48,9 @@ The `source/` folder contains local reference material copied from the laptop. I
 Current build:
 
 - Static portfolio website.
-- Six color-coded portfolio tabs: Aluminum, Structural Steel, Concrete, Research, Teaching, and Software Skills.
-- Shared About, professional timeline, resume, and contact sections.
-- Accessible photo enlargement, keyboard tab navigation, shareable fragment URLs, and no-JavaScript content fallback.
+- Project-led editorial portfolio, featuring the Tech Mahindra exterior steel columns.
+- Original project photography, doctoral research, professional timeline, teaching, software expertise, resume, and contact sections.
+- Accessible photo enlargement, mobile navigation, native research/toolkit disclosures, and shareable section links. All core content remains readable without JavaScript.
 - Five static case-study pages under `work/`.
 - Sanitized professional and research/FEA resume PDFs under `public/resume/`.
 - GitHub Pages target domain: `vaishalidagade.com`.
@@ -60,4 +60,4 @@ The original detailed resume stays private. Public resume downloads reflect the
 current PE Civil: Structural exam-passed status without claiming U.S. licensure.
 
 Run `python tools/verify_site.py` to check local asset links, fragment targets,
-image descriptions, and the six portfolio sections before deployment.
+image descriptions, and portfolio section anchors before deployment.
