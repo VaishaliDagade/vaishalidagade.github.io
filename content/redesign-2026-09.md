@@ -35,9 +35,11 @@ specific responsibilities or attributing unrelated building photos to a project.
 Tech Mahindra Hinjewadi: Vaishali confirmed in this conversation that she designed
 four approximately 40-foot exterior circular steel columns supporting the slab
 above, with base support and no intermediate bracing. She designed these while
-at Sharp Formwork, which manufactured and built the columns. The featured story
-and photo caption credit both her design role and Sharp Formwork's delivery role;
-no additional design calculations are claimed.
+at Sharp Formwork, which manufactured and built the columns. Vaishali clarified
+that her role was limited to structural design of the columns only. The featured
+story and photo caption explicitly distinguish this design-only scope from
+Sharp Formwork's manufacturing and construction; no delivery responsibilities
+or additional design calculations are attributed to her.
 
 Held for clarification: library.jpg. Confirm whether the library is project work
 or inspiration before use.
