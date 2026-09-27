@@ -33,9 +33,11 @@ Named images are captioned by the supplied project names, without inventing
 specific responsibilities or attributing unrelated building photos to a project.
 
 Tech Mahindra Hinjewadi: Vaishali confirmed in this conversation that she designed
-four approximately 40-foot exterior structural steel columns supporting the slab
-above, with base support and no intermediate bracing. The featured story includes the
-photo and this specific role; no additional design calculations are claimed.
+four approximately 40-foot exterior circular steel columns supporting the slab
+above, with base support and no intermediate bracing. She designed these while
+at Sharp Formwork, which manufactured and built the columns. The featured story
+and photo caption credit both her design role and Sharp Formwork's delivery role;
+no additional design calculations are claimed.
 
 Held for clarification: library.jpg. Confirm whether the library is project work
 or inspiration before use.
