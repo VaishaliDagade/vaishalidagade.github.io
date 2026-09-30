@@ -56,6 +56,7 @@ Current build:
 - GitHub Pages target domain: `vaishalidagade.com`.
 
 September 2026 content and photo decisions: `content/redesign-2026-09.md`.
+Published research figures and source decisions: `content/research-sources-2026-09.md`.
 The original detailed resume stays private. Public resume downloads reflect the
 current PE Civil: Structural exam-passed status without claiming U.S. licensure.
 

@@ -1,110 +1,514 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Finite Element Research | Vaishali Dagade</title>
-  <meta name="description" content="Selected research case study on four-node flat shell finite elements for composite, sandwich, and functionally graded shell panels.">
-  <link rel="canonical" href="https://vaishalidagade.com/work/finite-element-research.html">
-  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../styles.css">
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
-  <script type="module" src="../script.js"></script>
-</head>
-<body>
-  <header class="site-header" aria-label="Primary navigation">
-    <a class="brand" href="../index.html#top" aria-label="Vaishali Dagade home">
-      <span class="brand-mark">VD</span>
-      <span>Vaishali Dagade</span>
-    </a>
-    <nav class="nav-links" aria-label="Site sections">
-      <a href="../index.html#expertise">Expertise</a>
-      <a href="../index.html#projects">Work</a>
-      <a href="../index.html#experience">Experience</a>
-      <a href="../index.html#research">Research</a>
-      <a href="../index.html#resume">Resume</a>
-      <a href="../index.html#contact">Contact</a>
-    </nav>
-    <a class="header-contact" href="mailto:me@vaishalidagade.com">
-      <i data-lucide="mail" aria-hidden="true"></i>
-      <span>Email</span>
-    </a>
-  </header>
-
-  <main>
-    <section class="case-hero">
-      <div>
-        <p class="eyebrow">Case study | FEA research</p>
-        <h1>Flat shell finite elements for complex composite panels.</h1>
-        <div class="case-actions">
-          <a class="case-link" href="../index.html#research">Back to research</a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shell Finite-Element Research | Vaishali Dagade</title>
+    <meta
+      name="description"
+      content="Published shell finite-element research by Vaishali Dagade and collaborators: formulation, vibration modes, layered stresses, and validation against analytical and 3D finite-element benchmarks."
+    />
+    <link
+      rel="canonical"
+      href="https://vaishalidagade.com/work/finite-element-research.html"
+    />
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../portfolio.css?v=20260929-research" />
+    <link rel="stylesheet" href="../research.css?v=20260929" />
+    <script
+      src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"
+      defer
+    ></script>
+    <script src="../portfolio.js?v=20260927-editorial" defer></script>
+  </head>
+  <body class="research-page">
+    <a class="skip-link" href="#research-overview">Skip to research</a>
+    <header class="masthead" id="top">
+      <a
+        class="wordmark"
+        href="../index.html#top"
+        aria-label="Vaishali Dagade home"
+        ><span class="monogram">v<span>d.</span></span
+        ><span
+          >VAISHALI DAGADE<small>STRUCTURAL DESIGN ENGINEER</small></span
+        ></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        hidden
+      >
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="../index.html#projects">Selected work</a
+        ><a href="#research-overview">Research</a
+        ><a href="#publications">Publications</a
+        ><a href="../index.html#resume">Resume</a
+        ><a class="nav-contact" href="mailto:me@vaishalidagade.com"
+          >Let's connect<i data-lucide="arrow-up-right" aria-hidden="true"></i
+        ></a>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="research-intro section-space"
+        id="research-overview"
+        aria-labelledby="research-page-title"
+      >
+        <a class="research-back" href="../index.html#research"
+          ><i data-lucide="arrow-left" aria-hidden="true"></i>Back to
+          portfolio</a
+        >
+        <p class="eyebrow">Doctoral research / Structural mechanics</p>
+        <h1 id="research-page-title">
+          Shell finite-element<br /><em>research.</em>
+        </h1>
+        <p class="research-deck">
+          Understanding a curved structure starts with what happens inside it:
+          how it bends, how its layers share load, and how it vibrates.
+        </p>
+        <div class="research-scope">
+          <div>
+            <strong>4 nodes</strong
+            ><span>Quadrilateral flat-shell element</span>
+          </div>
+          <div>
+            <strong>7 DOF</strong
+            ><span>Per node in the DKZigTS1 formulation</span>
+          </div>
+          <div>
+            <strong>3 geometries</strong
+            ><span>Cylindrical, spherical, and conical</span>
+          </div>
         </div>
-      </div>
-      <img src="../assets/images/projects/01-fea-plate-render.jpg" alt="Finite element contour plot on a shell plate">
-    </section>
+        <p class="scope-note">
+          Selected study: Dagade &amp; Kulkarni,
+          <a href="https://doi.org/10.1515/cls-2022-0025"
+            >Curved and Layered Structures (2022)</a
+          >. The broader research also includes isotropic and functionally
+          graded shell panels.
+        </p>
+      </section>
 
-    <section class="case-copy">
-      <div>
-        <h2>Research that strengthens engineering judgment.</h2>
+      <section
+        class="research-chapter geometry-chapter section-space"
+        id="geometry"
+        aria-labelledby="geometry-title"
+      >
+        <div class="chapter-heading">
+          <p class="eyebrow">01 / The structures</p>
+          <h2 id="geometry-title">
+            Different curves.<br /><em>Layered behavior.</em>
+          </h2>
+          <p>
+            Composite layers can have different fiber orientations and
+            stiffnesses. A shell model needs to represent those differences as
+            well as the curvature of the structure.
+          </p>
+        </div>
+        <figure class="paper-figure geometry-figure">
+          <button
+            class="photo-button"
+            type="button"
+            data-photo="../assets/images/research/cls2022-fig01-shell-geometries.png"
+            data-caption="Figure 1: cylindrical (a), spherical (b), and conical (c) composite shell geometries. Dagade and Kulkarni, Curved and Layered Structures (2022), doi:10.1515/cls-2022-0025. CC BY 4.0. Page crop; figure unchanged."
+            aria-label="Enlarge shell geometry figure"
+          >
+            <img
+              src="../assets/images/research/cls2022-fig01-shell-geometries.png"
+              alt="Layered cylindrical, spherical, and conical shells with geometry and fiber orientation labels"
+              width="1730"
+              height="1240"
+              loading="lazy"
+            /><span class="image-action"
+              ><i data-lucide="expand" aria-hidden="true"></i
+            ></span>
+          </button>
+          <figcaption>
+            <strong>Figure 1 / Shell geometries</strong>Cylindrical, spherical,
+            and conical composite panels.
+            <a href="#figure-sources">Source and reuse credit</a>.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section
+        class="research-chapter section-space"
+        id="formulation"
+        aria-labelledby="formulation-title"
+      >
+        <div class="chapter-heading">
+          <p class="eyebrow">02 / The formulation</p>
+          <h2 id="formulation-title">
+            A curved surface,<br /><em>assembled from flat elements.</em>
+          </h2>
+        </div>
+        <div class="research-detail-grid">
+          <figure class="paper-figure">
+            <button
+              class="photo-button"
+              type="button"
+              data-photo="../assets/images/research/cls2022-fig02-shell-mesh.png"
+              data-caption="Figure 2: quadrilateral shell mesh and local, global, and surface coordinate systems. Dagade and Kulkarni, Curved and Layered Structures (2022), doi:10.1515/cls-2022-0025. CC BY 4.0. Page crop; figure unchanged."
+              aria-label="Enlarge shell mesh figure"
+            >
+              <img
+                src="../assets/images/research/cls2022-fig02-shell-mesh.png"
+                alt="Curved shell discretized into four-node quadrilaterals, with local, global, and surface axes"
+                width="1450"
+                height="730"
+                loading="lazy"
+              /><span class="image-action"
+                ><i data-lucide="expand" aria-hidden="true"></i
+              ></span>
+            </button>
+            <figcaption>
+              <strong>Figure 2 / Mesh and coordinate systems</strong>Local
+              translations and rotations must be assembled consistently across
+              the curved surface.
+              <a href="#figure-sources">Source and reuse credit</a>.
+            </figcaption>
+          </figure>
+          <div class="research-explanation">
+            <h3>Seven degrees of freedom. A consistent transformation.</h3>
+            <p>
+              In our 2022 journal paper, Shripad Kulkarni and I developed and
+              evaluated DKZigTS1, a four-node flat-shell element based on zigzag
+              theory. Each node has three translations, two bending rotations,
+              and two shear rotations.
+            </p>
+            <p>
+              Translations are transformed to global Cartesian coordinates;
+              rotations use a surface coordinate system. This allows the
+              formulation to retain seven degrees of freedom at both the local
+              and global levels.
+            </p>
+            <p class="research-qualification">
+              DKZigTS1 is distinct from the nine-DOF DKZigTS formulation used in
+              some of our other papers.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="research-chapter vibration-chapter section-space"
+        id="vibration"
+        aria-labelledby="vibration-title"
+      >
+        <div class="chapter-heading">
+          <p class="eyebrow">03 / Free vibration</p>
+          <h2 id="vibration-title">
+            Not just a frequency.<br /><em>A pattern of movement.</em>
+          </h2>
+          <p>
+            Validation compares both natural frequencies and their corresponding
+            mode shapes. The figure below places the shell formulation alongside
+            a three-dimensional finite-element benchmark.
+          </p>
+        </div>
+        <figure class="paper-figure modes-figure">
+          <button
+            class="photo-button"
+            type="button"
+            data-photo="../assets/images/research/cls2022-fig09-conical-modes.png"
+            data-caption="Figure 9: first five vibration modes of the all-round simply supported sandwich conical shell panel D. Top: 3D FE benchmark; bottom: DKZigTS1. These are mode shapes, not stress contours. Dagade and Kulkarni (2022), doi:10.1515/cls-2022-0025. CC BY 4.0. Page crop; figure unchanged."
+            aria-label="Enlarge conical shell mode comparison"
+          >
+            <img
+              src="../assets/images/research/cls2022-fig09-conical-modes.png"
+              alt="First five modes of a simply supported sandwich conical panel; 3D FE on the top row and DKZigTS1 on the bottom row, with nondimensional frequencies"
+              width="1340"
+              height="700"
+              loading="lazy"
+            /><span class="image-action"
+              ><i data-lucide="expand" aria-hidden="true"></i
+            ></span>
+          </button>
+          <figcaption>
+            <strong>Figure 9 / Sandwich conical shell, panel D</strong>All edges
+            simply supported. Top row: 3D FE benchmark. Bottom row: DKZigTS1.
+            Frequencies are nondimensional; the colors depict mode shapes, not
+            stress contours.
+            <a href="#figure-sources">Source and reuse credit</a>.
+          </figcaption>
+        </figure>
+        <div class="validation-note">
+          <i data-lucide="scan-line" aria-hidden="true"></i>
+          <p>
+            <strong>Validation across models and boundary conditions.</strong>
+            The study compares results with published analytical and elasticity
+            solutions and with ANSYS 3D finite-element models. Mesh refinement,
+            shell thickness, curvature, material lay-up, and support conditions
+            are part of the assessment. Agreement is case-dependent, not a
+            blanket accuracy guarantee.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="research-chapter section-space"
+        id="layered-response"
+        aria-labelledby="layered-title"
+      >
+        <div class="research-detail-grid">
+          <div class="research-explanation">
+            <p class="eyebrow">04 / Through the thickness</p>
+            <h2 id="layered-title">
+              What the faces carry.<br /><em>What the core carries.</em>
+            </h2>
+            <p>
+              For the sandwich panel shown here, the face sheets carry the
+              bending-related normal stresses while the core carries transverse
+              shear. Looking through the thickness reveals behavior that a
+              single surface contour cannot show.
+            </p>
+            <p>
+              Our formulation was assessed against the 3D FE stress
+              distributions, including the changes across material interfaces.
+              The wider study also examines the zigzag variation of in-plane
+              displacement through layered shells.
+            </p>
+            <p class="research-qualification">
+              Shown case: simply supported sandwich spherical panel G under
+              uniform loading; b/a = 1 and h/a = 0.25. Figure-specific
+              conditions are retained from the paper.
+            </p>
+          </div>
+          <figure class="paper-figure stress-figure">
+            <button
+              class="photo-button"
+              type="button"
+              data-photo="../assets/images/research/cls2022-fig13-sandwich-stresses.png"
+              data-caption="Figure 13: through-thickness normal and transverse shear stresses for sandwich spherical panel G; all edges simply supported, uniform loading, b/a = 1, h/a = 0.25. Dagade and Kulkarni (2022), doi:10.1515/cls-2022-0025. CC BY 4.0. Page crop; figure unchanged."
+              aria-label="Enlarge sandwich shell stress plots"
+            >
+              <img
+                src="../assets/images/research/cls2022-fig13-sandwich-stresses.png"
+                alt="Four plots compare DKZigTS1 and 3D finite-element predictions of normal and transverse shear stresses through sandwich shell thickness"
+                width="900"
+                height="930"
+                loading="lazy"
+              /><span class="image-action"
+                ><i data-lucide="expand" aria-hidden="true"></i
+              ></span>
+            </button>
+            <figcaption>
+              <strong>Figure 13 / Layered stress response</strong>Normal
+              stresses above, transverse shear stresses below. Original axes and
+              comparison legends are preserved.
+              <a href="#figure-sources">Source and reuse credit</a>.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section
+        class="research-takeaways section-space"
+        aria-labelledby="practice-title"
+      >
+        <p class="eyebrow">From research to practice</p>
+        <h2 id="practice-title">
+          A model is only as useful<br /><em>as the checks behind it.</em>
+        </h2>
+        <div>
+          <p>
+            <strong>Formulate.</strong> Connect shell kinematics, material
+            layers, coordinate transformations, and stiffness and mass matrices.
+          </p>
+          <p>
+            <strong>Verify.</strong> Compare mesh sizes, boundary conditions,
+            and analytical or independent FE benchmarks.
+          </p>
+          <p>
+            <strong>Interpret.</strong> Read stresses and mode shapes in the
+            context of the model's assumptions and the case being studied.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="research-bibliography section-space"
+        id="publications"
+        aria-labelledby="publications-title"
+      >
+        <p class="eyebrow">Selected publications</p>
+        <h2 id="publications-title">The published work.</h2>
+        <ol>
+          <li>
+            <span class="publication-year">2025</span>
+            <div>
+              <h3>
+                <a href="https://doi.org/10.1007/978-981-96-5707-0_43"
+                  >Static Analysis of Composite and Sandwich Spherical Shells
+                  Using a Four-Node Flat Shell Quadrilateral Finite Element<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </h3>
+              <p>V. A. Dagade, S. D. Kulkarni &amp; V. B. Dawari</p>
+              <small
+                >Recent Advances in Composite Materials and Structures, Volume
+                2. Springer Proceedings in Materials 74. Book chapter.</small
+              >
+            </div>
+          </li>
+          <li>
+            <span class="publication-year">2023</span>
+            <div>
+              <h3>
+                <a href="https://doi.org/10.1007/978-981-19-2145-2_84"
+                  >Four Node Flat Shell Quadrilateral Finite Element for
+                  Analysis of Composite Cylindrical Shells<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </h3>
+              <p>V. A. Dagade &amp; S. D. Kulkarni</p>
+              <small
+                >Recent Trends in Construction Technology and Management.
+                Lecture Notes in Civil Engineering 260. Book chapter.</small
+              >
+            </div>
+          </li>
+          <li>
+            <span class="publication-year">2022</span>
+            <div>
+              <h3>
+                <a href="https://doi.org/10.1515/cls-2022-0025"
+                  >A quadrilateral flat-shell element for the static and dynamic
+                  analysis of composite and sandwich cylindrical, spherical and
+                  conical shell panels<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </h3>
+              <p>Vaishali Atulkumar Dagade &amp; Shripad Kulkarni</p>
+              <small
+                >Curved and Layered Structures 9, pp. 320-344. Open-access
+                journal article; source of the four figures above.</small
+              >
+            </div>
+          </li>
+          <li>
+            <span class="publication-year">2022</span>
+            <div>
+              <h3>
+                <a href="https://doi.org/10.1016/j.matpr.2022.03.084"
+                  >Static and free vibration analysis of sandwich shell panels
+                  using quadrilateral flat shell finite element<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </h3>
+              <p>V. A. Dagade &amp; S. D. Kulkarni</p>
+              <small
+                >Materials Today: Proceedings. Conference proceedings
+                article.</small
+              >
+            </div>
+          </li>
+          <li>
+            <span class="publication-year">2022</span>
+            <div>
+              <h3>
+                <a href="https://doi.org/10.1016/j.matpr.2022.03.083"
+                  >Free vibration response of cylindrical and spherical FGM
+                  shell panels<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </h3>
+              <small
+                >Materials Today: Proceedings. Related functionally graded
+                material research.</small
+              >
+            </div>
+          </li>
+          <li>
+            <span class="publication-year">2022</span>
+            <div>
+              <h3>
+                <a
+                  href="https://iopscience.iop.org/article/10.1088/1757-899X/1236/1/012010/meta"
+                  >Shell finite element analysis of FGM spherical panels<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </h3>
+              <small
+                >IOP Conference Series: Materials Science and Engineering.
+                Related functionally graded material research.</small
+              >
+            </div>
+          </li>
+        </ol>
+        <p class="earlier-research">
+          Earlier coauthored conference work includes static and free-vibration
+          analysis of isotropic cylindrical shell panels, INCAM 2015, IIT Delhi.
+        </p>
+      </section>
+
+      <section
+        class="figure-sources section-space"
+        id="figure-sources"
+        aria-labelledby="figure-credit-title"
+      >
+        <h2 id="figure-credit-title">Figure credits</h2>
         <p>
-          My doctoral work developed and validated quadrilateral flat shell finite element approaches
-          for static and free-vibration analysis of cylindrical, spherical, and conical shell panels. The
-          research focused on composite, sandwich, and functionally graded material systems where structural
-          response depends on anisotropy, layered behavior, boundary conditions, and accurate shell kinematics.
+          Figures 1, 2, 9, and 13 are from V. A. Dagade and S. D. Kulkarni,
+          <a href="https://doi.org/10.1515/cls-2022-0025"
+            >A quadrilateral flat-shell element for the static and dynamic
+            analysis of composite and sandwich cylindrical, spherical and
+            conical shell panels</a
+          >, Curved and Layered Structures 9 (2022), 320-344. Copyright &copy;
+          2022 the authors; published by De Gruyter. Reused under
+          <a href="https://creativecommons.org/licenses/by/4.0/"
+            >Creative Commons Attribution 4.0</a
+          >.
         </p>
         <p>
-          The work is especially relevant to roles that need both design delivery and deeper simulation judgment:
-          it reflects comfort with formulation, meshing decisions, validation against benchmark solutions,
-          interpretation of modal response, and communication of analytical assumptions.
+          Figures were extracted from their original pages and resized for
+          display. Figure content, labels, and plotted data are unchanged.
         </p>
-        <ul>
-          <li>Studied composite, sandwich, and FGM shell panels using four-node flat shell finite elements.</li>
-          <li>Analyzed cylindrical, spherical, and conical panels under static and free-vibration conditions.</li>
-          <li>Worked across formulation, transformation matrices, boundary conditions, validation, and response interpretation.</li>
-          <li>Published peer-reviewed work and earned Best Paper Awards at ICAMEN 2022 and NIT Kurukshetra 2021.</li>
-        </ul>
-        <div class="publication-list" aria-label="Research links">
-          <a href="https://doi.org/10.1515/cls-2022-0025">Curved and Layered Structures, De Gruyter, 2022</a>
-          <a href="https://doi.org/10.1016/j.matpr.2022.03.084">Materials Today: sandwich shell panel analysis, 2022</a>
-          <a href="https://doi.org/10.1016/j.matpr.2022.03.083">Materials Today: FGM shell panel vibration, 2022</a>
-          <a href="https://iopscience.iop.org/article/10.1088/1757-899X/1236/1/012010/meta">IOP: four-node shell element for FGM spherical panels</a>
-        </div>
-      </div>
-      <aside class="case-stats" aria-label="Research facts">
-        <div class="case-stat">
-          <strong>Degree</strong>
-          <span>Ph.D., Structural Engineering, COEP / Savitribai Phule Pune University.</span>
-        </div>
-        <div class="case-stat">
-          <strong>Research focus</strong>
-          <span>Flat shell finite elements, composites, sandwich panels, FGM shells, static analysis, and free vibration.</span>
-        </div>
-        <div class="case-stat">
-          <strong>Methods</strong>
-          <span>Finite element formulation, benchmark validation, shell mechanics, layered materials, and response comparison.</span>
-        </div>
-      </aside>
-    </section>
-
-    <section class="case-gallery" aria-label="Finite element research images">
+        <a
+          class="text-link"
+          href="mailto:me@vaishalidagade.com?subject=Shell%20finite-element%20research"
+          >Discuss this research<i
+            data-lucide="arrow-up-right"
+            aria-hidden="true"
+          ></i
+        ></a>
+      </section>
+    </main>
+    <footer>
+      <a class="footer-name" href="../index.html"
+        >Vaishali Dagade<span>Structural Design Engineer, Ph.D.</span></a
+      ><a href="../index.html#research">Back to portfolio</a>
+    </footer>
+    <dialog class="photo-dialog" aria-label="Research figure">
+      <button
+        class="dialog-close"
+        type="button"
+        aria-label="Close research figure"
+        title="Close figure"
+      >
+        <i data-lucide="x" aria-hidden="true"></i>
+      </button>
       <figure>
-        <img src="../assets/images/research/01-composite-plate-diagram.png" alt="Composite laminate plate coordinate diagram">
-        <figcaption>Layered material behavior shaped the formulation and validation strategy.</figcaption>
+        <img alt="" />
+        <figcaption></figcaption>
       </figure>
-      <figure>
-        <img src="../assets/images/projects/01-fea-plate-render.jpg" alt="Finite element stress contour">
-        <figcaption>Simulation output supported interpretation of shell and panel response.</figcaption>
-      </figure>
-      <figure>
-        <img src="../assets/images/projects/05-structural-member-model.jpg" alt="Structural member model">
-        <figcaption>Research depth complements practical modeling and design communication.</figcaption>
-      </figure>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <span>Vaishali Dagade</span>
-    <span>Ph.D. Structural Engineering | FEA | ASCE &amp; SEI Member | FE Civil | PE Civil: Structural Exam Passed</span>
-  </footer>
-</body>
+    </dialog>
+  </body>
 </html>

@@ -672,6 +672,48 @@ p {
   margin-top: 10px;
   text-align: center;
 }
+.research-visual figcaption a,
+.research-credit a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.research-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 52px;
+}
+.research-highlights a {
+  min-width: 0;
+}
+.research-highlights img {
+  width: 100%;
+  height: 190px;
+  padding: 15px;
+  object-fit: contain;
+  background: #fff;
+}
+.research-highlights span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  color: #75528b;
+  font-size: 11px;
+}
+.research-highlights strong {
+  display: block;
+  margin-top: 9px;
+  font: 23px/1.25 var(--serif);
+}
+.research-highlights a:hover strong {
+  color: #75528b;
+}
+.research-credit {
+  margin-top: 23px;
+  font-size: 10px;
+  line-height: 1.7;
+}
 .research-notes {
   display: flex;
   justify-content: space-between;
@@ -1463,6 +1505,17 @@ footer > span {
   }
   .research-notes {
     font-size: 16px;
+  }
+  .research-highlights {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 35px;
+  }
+  .research-highlights img {
+    height: 230px;
+  }
+  .research-highlights strong {
+    font-size: 25px;
   }
   .research-story h3 {
     font-size: 32px;

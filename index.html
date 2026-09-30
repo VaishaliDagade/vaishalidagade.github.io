@@ -24,7 +24,7 @@
     <meta name="theme-color" content="#14776f" />
     <link rel="canonical" href="https://vaishalidagade.com/" />
     <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="portfolio.css?v=20260927-editorial" />
+    <link rel="stylesheet" href="portfolio.css?v=20260929-research" />
     <script
       src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"
       defer
@@ -381,13 +381,33 @@
         <div class="research-layout">
           <div class="research-visual">
             <figure>
-              <img
-                src="assets/images/research/01-composite-plate-diagram.png"
-                alt="Composite laminate geometry and coordinate system from the research archive"
-                loading="lazy"
-              />
+              <button
+                class="photo-button"
+                type="button"
+                data-photo="assets/images/research/cls2022-fig01-shell-geometries.png"
+                data-caption="Cylindrical, spherical, and conical composite shell geometries. Figure 1, Dagade and Kulkarni, Curved and Layered Structures (2022), doi:10.1515/cls-2022-0025. CC BY 4.0. Extracted from the page; figure content unchanged."
+                aria-label="Enlarge published shell geometry figure"
+              >
+                <img
+                  src="assets/images/research/cls2022-fig01-shell-geometries.png"
+                  alt="Published diagrams of layered cylindrical, spherical, and conical shell panels"
+                  width="1730"
+                  height="1240"
+                  loading="lazy"
+                />
+                <span class="image-action"
+                  ><i data-lucide="expand" aria-hidden="true"></i
+                ></span>
+              </button>
               <figcaption>
-                Composite laminates / Geometry and material behavior
+                Figure 1 / Dagade &amp; Kulkarni, 2022.<br />
+                <a href="https://doi.org/10.1515/cls-2022-0025"
+                  >Curved and Layered Structures</a
+                >
+                /
+                <a href="https://creativecommons.org/licenses/by/4.0/"
+                  >CC BY 4.0</a
+                >. Page crop; figure unchanged.
               </figcaption>
             </figure>
             <div class="research-notes">
@@ -405,9 +425,10 @@
               functionally graded shell panels.
             </p>
             <p>
-              The work connects formulation, boundary conditions, stiffness and
-              mass matrices, and benchmark validation with a practical
-              understanding of structural response.
+              In my 2022 work with Shripad Kulkarni, the DKZigTS1 formulation
+              uses seven degrees of freedom per node. We compared deflections,
+              stresses, natural frequencies, and mode shapes with analytical
+              benchmarks and three-dimensional ANSYS models.
             </p>
             <a class="text-link" href="work/finite-element-research.html"
               >Explore my research<i
@@ -421,15 +442,90 @@
             </p>
           </div>
         </div>
+        <div
+          class="research-highlights"
+          aria-label="Figures from the published research"
+        >
+          <a href="work/finite-element-research.html#formulation"
+            ><img
+              src="assets/images/research/cls2022-fig02-shell-mesh.png"
+              alt="Quadrilateral shell mesh with local, global, and surface coordinate systems"
+              width="1450"
+              height="730"
+              loading="lazy"
+            /><span
+              >01 / Formulation<i
+                data-lucide="arrow-up-right"
+                aria-hidden="true"
+              ></i></span
+            ><strong>From curved surface to finite elements.</strong></a
+          >
+          <a href="work/finite-element-research.html#vibration"
+            ><img
+              src="assets/images/research/cls2022-fig09-conical-modes.png"
+              alt="Five conical shell vibration modes compared between 3D finite elements and DKZigTS1"
+              width="1340"
+              height="700"
+              loading="lazy"
+            /><span
+              >02 / Free vibration<i
+                data-lucide="arrow-up-right"
+                aria-hidden="true"
+              ></i></span
+            ><strong>Checking how a shell moves.</strong></a
+          >
+          <a href="work/finite-element-research.html#layered-response"
+            ><img
+              src="assets/images/research/cls2022-fig13-sandwich-stresses.png"
+              alt="Through-thickness normal and shear stress comparisons for a sandwich shell"
+              width="900"
+              height="930"
+              loading="lazy"
+            /><span
+              >03 / Layered response<i
+                data-lucide="arrow-up-right"
+                aria-hidden="true"
+              ></i></span
+            ><strong>Understanding the work of each layer.</strong></a
+          >
+        </div>
+        <p class="research-credit">
+          Figures 2, 9, and 13: V. A. Dagade &amp; S. D. Kulkarni,
+          <a href="https://doi.org/10.1515/cls-2022-0025"
+            >Curved and Layered Structures, 2022</a
+          >.
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+          Extracted from the paper; figure content unchanged.
+        </p>
         <details class="publications">
           <summary>
             <span
               >Selected publications<small
-                >Peer-reviewed research, 2022</small
+                >Journal papers &amp; book chapters, 2022-2025</small
               ></span
             ><i data-lucide="plus" aria-hidden="true"></i>
           </summary>
           <ol>
+            <li>
+              <a href="https://doi.org/10.1007/978-981-96-5707-0_43"
+                >Static analysis of composite and sandwich spherical shells
+                using a four-node flat shell quadrilateral finite element<span
+                  >Springer / 2025<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+            </li>
+            <li>
+              <a href="https://doi.org/10.1007/978-981-19-2145-2_84"
+                >Four node flat shell quadrilateral finite element for analysis
+                of composite cylindrical shells<span
+                  >Springer / 2023<i
+                    data-lucide="arrow-up-right"
+                    aria-hidden="true"
+                  ></i></span
+              ></a>
+            </li>
             <li>
               <a href="https://doi.org/10.1515/cls-2022-0025"
                 >A quadrilateral flat-shell element for composite and sandwich
