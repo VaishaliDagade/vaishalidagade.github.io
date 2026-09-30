@@ -35,6 +35,19 @@
   padding-top: 27px;
   border-top: 1px solid var(--line);
 }
+.research-domains {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px;
+  margin-top: 38px;
+  max-width: 950px;
+}
+.research-domains .research-notes {
+  margin-top: 12px;
+}
+.research-domains > div:last-child > .eyebrow {
+  color: var(--teal);
+}
 .research-scope strong {
   display: block;
   font: 28px/1.2 var(--serif);
@@ -251,6 +264,10 @@
   font-size: 12px;
 }
 @media (max-width: 900px) {
+  .research-domains {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
   .research-intro h1 {
     font-size: 45px;
   }

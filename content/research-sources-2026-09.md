@@ -9,14 +9,18 @@ Source PDFs and submission records are not uploaded or linked as site assets.
 
 ## Figure provenance
 
-Source: V. A. Dagade and S. D. Kulkarni, "A quadrilateral flat-shell element for
+Source: "A quadrilateral flat-shell element for
 the static and dynamic analysis of composite and sandwich cylindrical, spherical
 and conical shell panels," Curved and Layered Structures 9 (2022), 320-344.
 DOI: https://doi.org/10.1515/cls-2022-0025
 
 The supplied publisher PDF explicitly licenses the work under CC BY 4.0 on its
-first page. The website credits both authors, links the paper and license, and
-identifies the page cropping/resizing. No figure content or data was altered.
+first page. The website links to the original paper for full author attribution,
+retains the copyright and license notices, and identifies page cropping/resizing.
+This uses linked attribution under CC BY 4.0 Section 3(a)(2):
+https://creativecommons.org/licenses/by/4.0/legalcode.en#s3a2
+No figure content or data was altered. Publication listings omit author bylines;
+the original papers retain their complete author records.
 
 | Asset | Figure | PDF page | Printed page | Subject |
 | --- | --- | --- | --- | --- |
@@ -39,9 +43,9 @@ No universal accuracy percentage or measured speed improvement is claimed.
 
 ## Publication decisions
 
-- Added the 2025 spherical-shell chapter by Dagade, Kulkarni, and Dawari,
+- Added the 2025 spherical-shell chapter,
   DOI 10.1007/978-981-96-5707-0_43. Publisher images are not reused.
-- Added the 2023 cylindrical-shell chapter by Dagade and Kulkarni,
+- Added the 2023 cylindrical-shell chapter,
   DOI 10.1007/978-981-19-2145-2_84. Publisher images are not reused.
 - Retained the published sandwich-shell paper,
   DOI 10.1016/j.matpr.2022.03.084, without counting its earlier manuscript again.
