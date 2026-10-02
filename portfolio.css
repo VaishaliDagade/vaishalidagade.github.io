@@ -476,6 +476,27 @@ p {
   border-top: 1px solid var(--line);
   padding-top: 20px;
 }
+.bungalow-project {
+  grid-template-columns: 1.3fr 1fr;
+  margin-top: 64px;
+  padding-top: 60px;
+  padding-bottom: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 0;
+}
+.bungalow-project .feature-image img {
+  height: auto;
+  aspect-ratio: 1840 / 1232;
+}
+.bungalow-project .feature-story h3 {
+  font-size: 36px;
+}
+.bungalow-project .project-category {
+  color: var(--teal);
+}
+.bungalow-project .text-link {
+  margin-top: 24px;
+}
 .project-facts dt {
   font-size: 10px;
   text-transform: uppercase;

@@ -1,0 +1,25 @@
+.case-gallery .bungalow-gallery-feature {
+  grid-column: 1 / -1;
+  scroll-margin-top: 140px;
+  margin-bottom: 24px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.bungalow-gallery-feature a {
+  display: block;
+}
+.case-gallery .bungalow-gallery-feature img {
+  height: auto;
+  aspect-ratio: 1840 / 1232;
+  object-fit: contain;
+  border: 0;
+}
+.case-gallery .bungalow-gallery-feature figcaption {
+  padding: 16px 0 0;
+}
+.bungalow-gallery-feature strong {
+  display: block;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
