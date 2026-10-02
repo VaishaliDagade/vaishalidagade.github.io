@@ -866,7 +866,8 @@ details[open] > summary > svg {
 }
 .portrait img {
   width: 100%;
-  aspect-ratio: 0.875;
+  height: auto;
+  aspect-ratio: 1122 / 1402;
   object-fit: cover;
   object-position: center top;
   background: #e8efec;

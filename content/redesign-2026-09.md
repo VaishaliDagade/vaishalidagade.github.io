@@ -49,6 +49,10 @@ presented on the refreshed portfolio pages as project/research evidence.
 The resume and LinkedIn disagree on the end date of the RMD Sinhgad appointment.
 The new homepage lists the institution and role without adding disputed dates.
 
+October 2026 portrait update: Vaishali confirmed the likeness of the new
+AI-edited portrait, with the sculpture and blue lanyard removed. The About
+section uses `vaishali-dagade-portrait-2026.png`; the previous portrait is retained.
+
 ## Hosting
 
 Retain the existing GitHub Pages deployment and custom domain. No DNS or email
