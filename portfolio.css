@@ -534,6 +534,12 @@ p {
 .project-description {
   padding: 24px 0 0;
 }
+.project-image-note {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--muted);
+}
 .project-description h3 {
   font-size: 29px;
   margin: 12px 0 15px;
