@@ -951,6 +951,10 @@ p {
   padding: 0 max(1.25rem, calc((100vw - var(--container)) / 2)) 4.6rem;
 }
 
+.formwork-gallery {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .case-gallery figure {
   margin: 0;
   overflow: hidden;

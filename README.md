@@ -28,7 +28,7 @@ Use:
 - `assets/images/projects/10-residence-plan-render.jpg`
 - `assets/images/projects/11-residence-section-render.jpg`
 - `assets/images/projects/12-silo-support-model.jpg`
-- `assets/images/projects/13-steel-connection-model.jpg`
+- `assets/images/projects/13-aluminum-formwork-component.jpg` (aluminum formwork, not structural steel)
 - `assets/images/research/01-composite-plate-diagram.png`
 
 Do not use:
